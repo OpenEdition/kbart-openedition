@@ -14,7 +14,7 @@
 # import sys
 # sys.path.insert(0, os.path.abspath('.'))
 import os
-os.system("python ../bundles.py");
+os.system("python bundles.py");
 
 # -- Project information -----------------------------------------------------
 
