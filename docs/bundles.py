@@ -3,7 +3,7 @@ import json
 
 URL = "https://bacon.abes.fr/list.json"
 PROVIDER = "OPENEDITION"
-OUTPUT_FILE = "bundles.rst"
+OUTPUT_FILE = "source/bundles.rst"
 # excluded packages, we don't want them in the bundles list :
 EXCLUDED = ["GLOBAL_ALLTITLES",
 "GLOBAL_ALLJOURNALS",
