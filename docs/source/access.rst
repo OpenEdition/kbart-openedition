@@ -84,10 +84,10 @@ National license
 
 
 OpenEdition contribution to `ISTEX <https://www.istex.fr/>`_: Excellency Initiative for Scientific and Technical Information (Initiative d’excellence de l’Information Scientifique et Technique): a collection of ebooks in the field of letters & human sciences with nearly 1200 titles of reasearch in history, anthropology and sociology, from the origins to 2015.
+
 ISTEX covers 23 millions documents from 27 scientific litterature corpus of all disciplines. It represents more than 9 279 journals and 346 863 ebooks between 1473 and 2016 for Research & Superior Education.
 
-
-Kbart data only available on `BACON <https://bacon.abes.fr/package2kbart/OPENEDITION_FRANCE_ISTEXBOOKS>`_.
+Kbart data for ISTEX License is only available on `BACON <https://bacon.abes.fr/package2kbart/OPENEDITION_FRANCE_ISTEXBOOKS>`_.
 
 KBART files for partner institutions available upon request
 ------------------------------------------------------------------
