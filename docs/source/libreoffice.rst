@@ -1,4 +1,4 @@
-.. libreoffice:
+.. _libreoffice:
 
 Working with KBART files in LibreOffice 
 ============================================
@@ -9,6 +9,12 @@ suite, created and maintained by `The Document Foundation <https://www.documentf
 We'll show how to automatically retrieve coverage data for Open Access Journals
 from OpenEdition Journals.
 
+.. contents:: Table of Contents
+   :depth: 2
+
+Setting up a link to external data
+-------------------------------------
+
 First, create a new LibreOffice Calc spreadsheet. Once this is done, in the menu
 bar, select "Sheet", and then `"Link to External Data..." <https://help.libreoffice.org/Calc/Inserting_External_Data_in_Table_WebQuery>`_
 in the dropdown menu.
@@ -16,12 +22,15 @@ in the dropdown menu.
 .. image:: _static/libreoffice_menu.png
 
 In the opening window, fill the URL with the desired KBART package. You'll find
-all the availables KBART packages in the :ref:`access section of this documentation <access>`.
+all the availables KBART packages and their matching URL in the :ref:`access section of this documentation <access>`.
 
 Be careful to add the extension ".txt" at the end of the URL, otherwise
 LibreOffice won't load the data. Press enter.
 
 .. image:: _static/libreoffice_ext_data.png
+
+Importation
+^^^^^^^^^^^^^^^^^^^^^
 
 A new window should open, asking for importation settings. Tabulation should be
 selected as the separator:
@@ -33,19 +42,27 @@ imported in your spreadsheet:
 
 .. image:: _static/libreoffice_example.png
 
+Working with the data
+-------------------------------------
+
 Now let's rename this sheet as "BACON" and switch to another sheet. From this
 one, which won't be affected when we update the data, we can perform usual
 operations with Libreoffice: filtering, using formulas & macros, etc.
 
 For example, in order to search for a given journal by its e-ISSN and return its
 first available issue, we can enter this formula in the A1 cell:
+(The searched ISSN has to be entered in cell B1)
 
 ``=CONCAT(VLOOKUP(B1;$BACON.C:E;2;0);"-";VLOOKUP(B1;$BACON.C:E;3;0))``
 
-The searched ISSN has to be entered in cell B1. With a little practice, powerful
-tools can be built this way, in order to monitor publications or track newly
-available issues. The extensive `Libreoffice documentation <https://documentation.libreoffice.org/>`_
+With a little practice, powerful tools can be built this way, in order to
+monitor publications or track newly available issues. The extensive `Libreoffice documentation <https://documentation.libreoffice.org/>`_
 may be of some help.
+
+Updating data
+-------------------------------------
+
+This file can be saved to be reused with newer data or another Kbart file.
 
 When needed, the data might be updated by using the "Links to external files"
 in the "Edit" menu:

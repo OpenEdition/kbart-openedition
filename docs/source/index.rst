@@ -13,11 +13,13 @@ This documentation describes the specific elements related to OpenEdition but do
 
    overview
    access
-  
+   description
 
 .. toctree::
    :maxdepth: 2
-   :caption: Data description
+   :caption: Use cases
+   
+   libreoffice
 
 .. toctree::
    :maxdepth: 2
