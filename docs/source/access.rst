@@ -93,7 +93,6 @@ KBART files for partner institutions available upon request
 ------------------------------------------------------------------
 
 Our library partnership officers can make available upon request the KBART files relating to purchased books and journals.
-OpenEdition specific files
 
 .. note ::
    OpenEdition also provides non-standard files for describing title list and coverage data (full lists and by access policy for OpenEdition Journals and OpenEdition Books):
