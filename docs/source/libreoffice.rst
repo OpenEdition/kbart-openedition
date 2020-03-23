@@ -16,7 +16,7 @@ in the dropdown menu.
 .. image:: _static/libreoffice_menu.png
 
 In the opening window, fill the URL with the desired KBART package. You'll find
-all the availables KBART packages in the `access section of this documentation <:ref:access_>`_.
+all the availables KBART packages in the :ref:`access section of this documentation <access>`.
 
 Be careful to add the extension ".txt" at the end of the URL, otherwise
 LibreOffice won't load the data. Press enter.
