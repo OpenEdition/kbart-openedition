@@ -1,6 +1,6 @@
 #le script fonctionne en exposant sur le web ce Gdoc : https://docs.google.com/spreadsheets/d/1cRGLuwb13Xnmy8G6v1S0p9X2L_ZVvay_S0sifS3Bwvg/edit#gid=1546125655 via la fonction publier sur le web
 #a priori ces infos ne sont un secret pour personne
-#seule la feuille "kbart equiv" est exposée
+#seule la feuille "kbart equiv" est exposée / copie des colonnes D et G du document "périodicité des bouquets" via la fonction importrange()
 
 import urllib.request
 import json
