@@ -1,20 +1,30 @@
-.. OpenEdition KBART Documentation documentation master file, created by
-   sphinx-quickstart on Mon Mar 23 11:25:27 2020.
-   You can adapt this file completely to your liking, but it should at least
-   contain the root `toctree` directive.
+OpenEdition KBART Documentation 
+============================================
 
-Welcome to OpenEdition KBART Documentation's documentation!
-===========================================================
+.. image:: _static/openedition.png
+
+OpenEdition provides electronic resource title lists and coverage data for the documents published on `OpenEdition Books <https://books.openedition.org>`_ and `OpenEdition Journals <https://journals.openedition.org>`_ as `KBART files <https://www.niso.org/standards-committees/kbart>`_. Alternatively, OpenEdition metadata can be harvested using `OpenEdition OAI-PMH repository <https://oai-openedition.readthedocs.io/>`_ or downloaded as `MARC records <https://marc-openedition.readthedocs.io/>`_.
+
+This documentation describes the specific elements related to OpenEdition but does not include a complete description of KBART specifications.
 
 .. toctree::
    :maxdepth: 2
-   :caption: Contents:
+   :caption: General overview
 
+   overview
+   access
+  
 
+.. toctree::
+   :maxdepth: 2
+   :caption: Data description
 
-Indices and tables
-==================
+.. toctree::
+   :maxdepth: 2
+   :caption: About 
 
-* :ref:`genindex`
-* :ref:`modindex`
-* :ref:`search`
+   openedition
+   license
+   help
+   changelog
+
