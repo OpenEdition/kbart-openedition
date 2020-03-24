@@ -19,7 +19,9 @@ This documentation describes the specific elements related to OpenEdition but do
    :maxdepth: 2
    :caption: Use cases
    
+   library
    libreoffice
+   further
 
 .. toctree::
    :maxdepth: 2
