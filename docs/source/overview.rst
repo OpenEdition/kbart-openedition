@@ -15,6 +15,12 @@ KBART files are published on BACON under the `CC0 license <https://creativecommo
 and on OpenEdition under the following licenses: `Creative Commons Attribution 4.0 International License <https://creativecommons.org/licenses/by/4.0/>`_
 and the French `"Licence Ouverte / Open license" <https://www.etalab.gouv.fr/licence-ouverte-open-licence>`_.
 
+Knowledge Base And Related Tools
+----------------------------------
+
+.. include:: bacon.rst
+
+
 Prévoir un texte explicatif états de collection.
 Double aspect : signalement documentaire & entrée possible dans les données OE (rebonds sur l’OAI, etc.)
 

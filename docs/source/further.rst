@@ -14,6 +14,10 @@ but other implementations are possible.
 We'll be working on the journal identified by ISSN `2275-2145 <https://portal.issn.org/resource/ISSN/2275-2145>`_,
 *Sciences de la société*
 
+.. contents:: Table of Contents
+   :depth: 2
+   
+
 Get the KBART from BACON
 --------------------------------
 
