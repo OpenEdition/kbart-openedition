@@ -33,8 +33,8 @@ Extract a journal's data
 --------------------------------
 
 This last command will pour the entire catalogue description as TSV in the console
-and its output won't be shown here. Instead, we'll pipe it to `grep <https://www.gnu.org/software/grep/manual/grep.html>`_
-in order to isolate the target journal:
+and its output won't be shown here. Instead, we'll pipe (``|``) it to `grep <https://www.gnu.org/software/grep/manual/grep.html>`_
+in order to isolate the target journal, with ``grep 2275-2145``:
 
 .. code-block:: bash
 
@@ -47,12 +47,12 @@ in order to isolate the target journal:
 Parse columns to find an identifier
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Please refer to the data description section of this documentation in order to
-identify the relevant fields for your case.
+Please refer to the :ref:`data description section of this documentation <description>`
+in order to identify the relevant fields for your case.
 
-Here, the identifier we need is in the target_id column, which happens to be the twelfth.
+Here, the identifier we need is in the ``target_id`` column, which happens to be the twelfth.
 Then we can simply `cut <http://man7.org/linux/man-pages/man1/cut.1.html>`_ the
-line to extract this identifier:
+line to extract this identifier, with ``cut -d$'\t' -f12``:
 
 .. code-block:: bash
 
