@@ -18,18 +18,29 @@ and the French `"Licence Ouverte / Open license" <https://www.etalab.gouv.fr/lic
 Knowledge Base And Related Tools
 ----------------------------------
 
+In an era of electronic documentation, we are facing the challenge of ever-evolving
+catalogues and moving resources. In order to tackle this issue, the US agency for
+normalisation proposed KBART as a framework for sharing information about electronic
+collection.
+
+The KBART recommandation mostly consists of a standard 25 columns `TSV <https://en.wikipedia.org/wiki/Tab-separated_values>`_
+table and best practices about how to fill it, name it and share it.
+
+KBART files are very well suited to describe electronic collections such as 
+OpenEdition's. For each available resource, it allows one to get minimal bibliographic
+information along with access modalities (is this journal Open Access ? what is the URL for
+that book ?).
+
+Yet, the KBART format **is not** adapted to retrieve detailed metadata
+about a resource. It is made to describe catalogues, bundles and states of
+collections. In case you're looking for metadata about OpenEdition resources,
+you should consider reading OpenEdition's `OAI-PMH <https://oai-openedition.readthedocs.io/>`_
+or `MARC <https://marc-openedition.readthedocs.io/en/latest/index.html>`_ documentations.
+In this case, KBART could be useful as en entry point in order to retrieve
+identifiers, for example. Such case is developed in the :ref:`"Going further..." section of this documentation<further>`.
+
+A standard format such as KBART facilitates interoperability, electronic
+resources maintenance and subscription management. It allows one to develop or
+use tools that are not provider-dependant.
+
 .. include:: bacon.rst
-
-
-Prévoir un texte explicatif états de collection.
-Double aspect : signalement documentaire & entrée possible dans les données OE (rebonds sur l’OAI, etc.)
-
-KBART Std
-présentation du KBART & de son utilité (comparaison avec la title list non formalisée)
-Intérêt d’un format std > liste “maison” -> interopérabilité
-
-BACON
-KB côté "hub"
-Services suppl : webservices, versionning, labellisation
-partenaires ABES
-inclure liens
