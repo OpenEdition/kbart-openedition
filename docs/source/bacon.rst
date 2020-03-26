@@ -62,3 +62,11 @@ BACON's data is monitored and curated by the ABES teams. When a KBART file meets
 `certain quality criterias <https://punktokomo.abes.fr/2015/05/28/bacon-et-la-labellisation-des-donnees-a-quelle-aune-mesure-t-on-la-qualite-dun-fichier-kbart/>`_,
 it is given a "quality label". As it can be seen in the above screenshot, the
 OpenEdition Hypotheses KBART has been highlighted by this label.
+
+.. warning::
+   
+   KBART files served by BACON get appended a non-standard 26th column, called
+   ``best_ppn``. It is the best matching identifier found for this resource in
+   the `SUDOC catalogue <http://sudoc.abes.fr>`_.
+   
+   Most of the time, it can simply be ignored if it not of any use to you.
