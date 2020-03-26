@@ -107,6 +107,6 @@ So we can use the commands we already saw to append this identifier:
     [...]
     output has been truncated
 
-We now have a XML-structured list of records, formated as Metadata Encoding and
+We now have a XML-structured list of records, formatted as Metadata Encoding and
 Transmission Standard (mets), describing available issues for the journal
 *Sciences de la société*, identified by ISSN 2275-2145.
