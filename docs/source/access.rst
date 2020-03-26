@@ -6,8 +6,14 @@ Accessing KBART files
 .. contents:: Table of Contents
    :depth: 2
    
-Todo: intro / présenter listes
-+précser derniere upd // versionning
+OpenEdition offers two types of KBART files: masterlists & bundles. The complete
+lists may be accessed as a whole, by platform, or by access policy. For each
+available KBART file, this page provides update rate and access links, whether
+directly on OpenEdition or on BACON .
+
+All the KBART files listed in this page link to the most up-to-date available version.
+Please refer to the :ref:`versionning section of this documentation<versions>`
+in order to know how to retrieve a file's state at a given date.
 
 Complete lists
 ----------------------
