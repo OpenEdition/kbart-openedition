@@ -69,4 +69,4 @@ OpenEdition Hypotheses KBART has been highlighted by this label.
    ``best_ppn``. It is the best matching identifier found for this resource in
    the `SUDOC catalogue <http://sudoc.abes.fr>`_.
    
-   Most of the time, it can simply be ignored if it not of any use to you.
+   Most of the time, it can simply be ignored if it's not of any use to you.
