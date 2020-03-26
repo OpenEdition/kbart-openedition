@@ -15,17 +15,21 @@ An empty implementation note means the field is never used.
 +===========================================+===========================================================================================================================================================================+
 | publication_title                         | title of the described resource                                                                                                                                           |
 +-------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| print_identifier                          | if any: print ISSN for OpenEdition Journals, print ISBN for OpenEdition Books                                                                                             |
+| print_identifier                          | | if any: print ISSN for OpenEdition Journals,                                                                                                                            |
+|                                           | | print ISBN for OpenEdition Books                                                                                                                                        |
 +-------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| online_identifier                         | electronic ISSN for OpenEdition Journals & Hypotheses research blogs, electronic ISBN for OpenEdition Books                                                               |
+| online_identifier                         | | electronic ISSN for OpenEdition Journals & Hypotheses research blogs                                                                                                    |
+|                                           | | electronic ISBN for OpenEdition Books                                                                                                                                   |
 +-------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| date_first_issue_online                   | year of first available issue for OpenEdition Journals, date of first post for Hypotheses Research blogs                                                                  |
+| date_first_issue_online                   | | year of first available issue for OpenEdition Journals                                                                                                                  |
+|                                           | | date of first post for Hypotheses Research blogs                                                                                                                        |
 +-------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | num_first_vol_online                      | number of the first available volume for OpenEdition Journals                                                                                                             |
 +-------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | num_first_issue_online                    | number of the first available issue for OpenEdition Journals                                                                                                              |
 +-------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| date_last_issue_online                    | year of last available issue for OpenEdition Journals (for both embargoed and inactive journals), date of last post for inactive Hypotheses Research blogs                |
+| date_last_issue_online                    | | year of last available issue for OpenEdition Journals (for both embargoed and inactive journals)                                                                        |
+|                                           | | date of last post for inactive Hypotheses Research blogs                                                                                                                |
 +-------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | num_last_vol_online                       | number of the last available volume for OpenEdition Journals                                                                                                              |
 +-------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
@@ -45,7 +49,8 @@ An empty implementation note means the field is never used.
 +-------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | publisher_name                            | publisher name                                                                                                                                                            |
 +-------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| publication_type                          | ``serial`` for OpenEdition Journals and Hypotheses, ``monograph`` for OpenEdition Books                                                                                   |
+| publication_type                          | | ``serial`` for OpenEdition Journals and Hypotheses                                                                                                                      |
+|                                           | | ``monograph`` for OpenEdition Books                                                                                                                                     |
 +-------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | date_monograph_published_print            | print publication date for OpenEdition Books, if any                                                                                                                      |
 +-------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
@@ -61,7 +66,8 @@ An empty implementation note means the field is never used.
 +-------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | preceding_publication_title_id            |                                                                                                                                                                           |
 +-------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| access_type                               | ``F`` for OpenEdition Journals, Open Access & Open Access Freemium OpenEdition Books and Hypotheses, for ``P`` for exclusive access OpenEdition Books                     |
+| access_type                               | | ``F`` for OpenEdition Journals, Open Access & Open Access Freemium OpenEdition Books and Hypotheses                                                                     |
+|                                           | | ``P`` for exclusive access OpenEdition Books                                                                                                                            |
 +-------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
 .. _notesfield:
@@ -72,7 +78,8 @@ Notes
 The ``notes`` field is used in order to provide complementary information which
 could not expressed in the other fields.
 
-All Open Access Freemium Journals are highlighted with this note: ``Full access to the HTML version of the content. Access to PDF and Epub reserved to subscribing institutions.``
+All Open Access Freemium Journals are highlighted with this note:
+``Full access to the HTML version of the content. Access to PDF and Epub reserved to subscribing institutions.``
 
 Moreover, for OpenEdition Journals, some characters and abbreviations are used to
 precisely describe coverage range:
