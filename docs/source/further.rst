@@ -21,7 +21,7 @@ We'll be working on the journal identified by ISSN `2275-2145 <https://portal.is
 Get the KBART from BACON
 --------------------------------
 
-First we need to get the data. Refer to the :ref:`access section of this documentation <access>`
+First we need to get the data. Refer to the :ref:`access section of this documentation<access>`
 in order to identify the relevant package for your case and its URL.
 
 We use here the whole OpenEdition Journal catalogue, so the matching URL is ``https://bacon.abes.fr/package2kbart/OPENEDITION_GLOBAL_ALLJOURNALS.txt``
@@ -51,7 +51,7 @@ in order to isolate the target journal, with ``grep 2275-2145``:
 Parse columns to find an identifier
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Please refer to the :ref:`data description section of this documentation <description>`
+Please refer to the :ref:`data description section of this documentation<description>`
 in order to identify the relevant fields for your case.
 
 Here, the identifier we need is in the ``target_id`` column, which happens to be the twelfth.
