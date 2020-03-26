@@ -66,7 +66,7 @@ OpenEdition Hypotheses KBART has been highlighted by this label.
 .. warning::
    
    KBART files served by BACON are appended a non-standard 26th column, called
-   ``best_ppn``. It is the best matching identifier found for this resource in
+   ``bestppn``. It is the best matching identifier found for this resource in
    the `SUDOC catalogue <http://sudoc.abes.fr>`_.
    
    Most of the time, it can simply be ignored if it's not of any use to you.
