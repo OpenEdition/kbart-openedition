@@ -1,12 +1,12 @@
-#le script fonctionne en exposant sur le web ce Gdoc : https://docs.google.com/spreadsheets/d/1cRGLuwb13Xnmy8G6v1S0p9X2L_ZVvay_S0sifS3Bwvg/edit#gid=1546125655 via la fonction publier sur le web
-#a priori ces infos ne sont un secret pour personne
-#seule la feuille "kbart equiv" est exposée / copie des colonnes D et G du document "périodicité des bouquets" via la fonction importrange()
+#le script fonctionne avec un fichier TSV pour décrire les bouquets (bundles.tsv):
+# 1e colonne : nom complet du bouquet
+# 2e colonne : nom abrégé (nom du fichier KBART sur BACON)
 
 import urllib.request
 import json
 
 URL = "https://bacon.abes.fr/list.json"
-NAMES_URL = "https://docs.google.com/spreadsheets/d/e/2PACX-1vS_tX7qEeulus9SsWYfmsXonbxOeSU2MiqHioVLF60elpz4IZDHZiO7NrusfhnssceKIJnykWQoXXfv/pub?gid=1546125655&single=true&output=csv"
+NAMES_PATH = "bundles.tsv"
 PROVIDER = "OPENEDITION"
 OUTPUT_FILE = "bundles.rst"
 # excluded packages, we don't want them in the bundles list :
@@ -22,10 +22,13 @@ EXCLUDED = ["GLOBAL_ALLTITLES",
 "GLOBAL_EBOOKS-EXCLUSIVE-ACCESS",
 "FRANCE_ISTEXBOOKS"]
 names = {}
-NAMES_URL = bytes.decode(urllib.request.urlopen(NAMES_URL).read()).replace("\r","").replace("(mois année)","").replace("(année)","").replace("(année semestre)","").split("\n")
-for line in NAMES_URL:
-  line = line.split(",")
-  names[line[1]] = line[0]
+NAMES_PATH = open(NAMES_PATH, "r");
+NAMES_PATH = NAMES_PATH.read();
+NAMES_PATH = NAMES_PATH.replace("\r","").replace("(mois année)","").replace("(mois années)","").replace("(année)","").replace("(année semestre)","").split("\n")
+for line in NAMES_PATH:
+  if (line != ""):
+    line = line.split("\t")
+    names[line[1]] = line[0]
 f=open(OUTPUT_FILE, "w+")
 output = urllib.request.urlopen(URL)
 output = json.load(output)
