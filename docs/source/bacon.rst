@@ -19,7 +19,7 @@ than 850 packages available from https://bacon.abes.fr
 This website offers three main functionnalities : exporting data, signaling
 mistakes & syndication feeds. It comes with a `documentation available in English <http://documentation.abes.fr/aidebacon/EN/index.html>`_,
 and a `useful glossary <https://bacon.abes.fr/glossaire.html>`_, yet only in
-French.
+French. (alternatively, one can consult `NISO Kbart glossary <https://www.niso.org/standards-committees/kbart/kbart-glossary-relevant-terms>`_)
 
 This documentation also describes a few webservices, which allow one to build
 complex tools over BACON. These webservices expose KBART, XML or JSON and offer
@@ -45,7 +45,7 @@ Versionning
 
 As the name scheme above suggests, BACON makes it possible to get the version
 of a KBART file at a given date by specifying it in the last part of the file
-name, in ``YYYY-MM-DD`` formmat.
+name, in ``YYYY-MM-DD`` format.
 
 If that part is omitted, so the filename looks like ``[ProviderName]_[Region/Consortium]_[PackageName].txt``,
 BACON will automatically serve the most up-to-date version.
@@ -67,6 +67,7 @@ OpenEdition Hypotheses KBART has been highlighted by this label.
    
    KBART files served by BACON are appended a non-standard 26th column, called
    ``bestppn``. It is the best matching identifier found for this resource in
-   the `SUDOC catalogue <http://sudoc.abes.fr>`_.
+   the `SUDOC catalogue <http://sudoc.abes.fr>`_. Additional information about
+   this 26th column can be found in `this article from the ABES's blog <https://punktokomo.abes.fr/2020/03/23/chantier-bacon-partie-1-liage-du-sudoc-et-de-bacon-par-les-ppn/>`_. 
    
    Most of the time, it can simply be ignored if it's not of any use to you.

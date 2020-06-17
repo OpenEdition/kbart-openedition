@@ -16,6 +16,7 @@ or as it is sometimes called, set up a locally-managed holdings database.
 
 Extensive documentation on how to perform these operations is provided by
 ProQuest for `360 CORE <https://knowledge.exlibrisgroup.com/360_Services/360_Core_Client_Center/0Product_Documentation/Manage_Your_Data/360_Core%3A_Library-Specific_(Library-Managed)_Holdings_Database_--_Overview>`_,
+and for `Primo <https://knowledge.exlibrisgroup.com/Primo/Content_Corner/Central_Discovery_Index/Documentation_and_Training/010Managing_Collections_and_Their_Content_for_Discovery>`_,
 and by EBSCO for `EBSCO Admin <https://connect.ebsco.com/s/article/Holdings-Management-Adding-or-Removing-Packages-from-Your-Holdings?language=en_US>`_.
 If needed, you should ask your library software provider for support.
 
